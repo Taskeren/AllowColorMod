@@ -23,3 +23,6 @@ bin/
 # fabric
 
 run/
+
+AllowColorMod_client.launch
+AllowColorMod_server.launch

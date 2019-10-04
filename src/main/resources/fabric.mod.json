@@ -1,25 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "allow-color",
   "version": "${version}",
 
   "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "This mod allows you to use '§' in game.",
   "authors": [
-    "Me!"
+    "Taskeren",
+    "TrustEdward"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://taske.ren/",
+    "sources": "https://github.com/nitu2003/AllowColorMod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "cn.glycol.allowcolor.AllowColor"
     ]
   },
   "mixins": [
